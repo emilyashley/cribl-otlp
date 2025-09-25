@@ -1,0 +1,7 @@
+fgoCln:
+  sampleName: telescope_logs_metrics_traces.log
+  description: 500 incoming events from telescope app
+  ttl: 0
+  created: 1758767447476
+  size: 950650
+  numEvents: 500

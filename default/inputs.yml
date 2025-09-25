@@ -1,0 +1,27 @@
+inputs:
+  telescope_app:
+    disabled: false
+    sendToRoutes: true
+    pqEnabled: false
+    streamtags: []
+    host: 0.0.0.0
+    port: 20006
+    tls:
+      disabled: true
+    maxActiveReq: 256
+    maxRequestsPerSocket: 0
+    requestTimeout: 0
+    socketTimeout: 0
+    keepAliveTimeout: 15
+    enableHealthCheck: false
+    ipAllowlistRegex: /.*/
+    ipDenylistRegex: /^$/
+    protocol: http
+    extractSpans: true
+    extractMetrics: true
+    otlpVersion: 1.3.1
+    authType: none
+    extractLogs: true
+    maxActiveCxn: 1000
+    type: open_telemetry
+    description: https://opentelemetry.io/docs/demo/
