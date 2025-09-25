@@ -12,4 +12,4 @@ routes:
     outputExpression: null
     filter: "true"
     clones: []
-    output: devnull
+    output: telescope_otlp_demo
